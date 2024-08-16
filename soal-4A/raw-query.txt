@@ -1,0 +1,8 @@
+- menampilkan seluruh data dari tabel provinsi
+SELECT * FROM "Provinsi";
+
+- menampilkan seluruh data provinsi beserta kabupaten
+SELECT p.*, k.* FROM "Provinsi" p LEFT JOIN "Kabupaten" k ON p.id = k."provinsiId" ORDER BY p.id, k.id;
+
+- Tampilkan seluruh data provinsi yang berada di pulau tertentu
+SELECT * FROM "Provinsi" WHERE pulau = 'Sumatera';

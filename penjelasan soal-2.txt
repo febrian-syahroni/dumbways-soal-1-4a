@@ -1,0 +1,5 @@
+1. nilai awal di definisikan sebagai array.
+2. Loop luar (i) berjalan sebanyak panjang array dikurangi 1.
+3. Loop dalam (j) membandingkan elemen berpasangan.
+4. Jika elemen kiri lebih besar dari elemen kanan, keduanya ditukar posisinya.
+Proses ini "menggelembungkan" elemen terbesar ke posisi paling kanan setiap iterasi.

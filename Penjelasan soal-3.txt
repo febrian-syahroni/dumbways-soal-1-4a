@@ -1,0 +1,6 @@
+1. Cek nilai ganjil: Fungsi mengecek apakah size adalah ganjil. Jika tidak, maka program akan memberikan pesan error dan menghentikan eksekusi.
+
+Looping:
+2. Dua loop bersarang digunakan untuk mencetak setiap baris (i) dan kolom (j).
+
+3. Jika jumlah i + j adalah genap, karakter # dicetak; jika ganjil, karakter * dicetak.

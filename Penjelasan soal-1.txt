@@ -1,0 +1,18 @@
+menghitung total harga barang berdasarkan kualitas dan jumlahnya.
+
+1. Fungsi menerima dua parameter: kualitas (string) dan quantity (angka).
+
+2. Variabel harga, potongan, dan totalHarga dideklarasikan sebagai variabel penampung.
+
+3. Fungis menggunakan struktur IF Condition untuk menentukan harga dan potongan berdasarkan kualitas.
+
+- Kualitas A potongan 231 per unit jika membeli di atas 13 unit
+- Kualitas B potongan 23% dari total harga  jika membeli di atas 7
+- Kualitas C tidak ada potongan
+- Jika kualitas tidak valid, fungsi akan mencetak pesan error dan berhenti.
+
+4. Total harga dihitung dengan mengalikan harga per unit dengan quantity.
+
+
+5. Total yang harus dibayar dihitung dengan mengurangi potongan dari total harga.
+
